@@ -1,0 +1,23 @@
+.logo {
+  margin-top: 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo-img {
+  width: 50px;
+}
+.logo-txt {
+  font-size: 30px;
+  color: #fafafa;
+  font-weight: 700;
+}
+.logo-txt-i {
+  font-weight: 700;
+  color: #ffffff;
+}
+/* @media only screen and (max-width: 600px) {
+  .logo {
+    margin-bottom: 50%;
+  }
+} */

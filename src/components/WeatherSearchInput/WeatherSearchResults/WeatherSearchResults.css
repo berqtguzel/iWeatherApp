@@ -1,0 +1,57 @@
+.welcome-container {
+    font-size: 25px;
+    color: #ffffff;
+  }
+  .app-name {
+    color: #8fb2f5;
+  }
+  .location-prompt {
+    padding: 5px 0 35px 0;
+    color: #ababc4;
+  }
+  .location-search{
+    display: flex;  
+
+  }
+  .location-input {
+    margin-bottom: 15px;
+    padding-left: 13px;
+    width: 24em;
+    height: 4em;
+    border-radius: 5px;
+    background-color: #1e1e29;
+    color: #ffffff;
+    border: none;
+  }
+  .weather-input {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .search-results:hover{
+    width: 335px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #3b3b54;
+  }
+  .search-results{
+    width: 335px;
+    height: 40px;
+    border-radius: 5px;
+    background-color:#1e1e29;
+    margin-top: 13px;
+    padding: 5px;
+    cursor: pointer;
+
+  }
+  .city-list{
+    padding: 0;
+  }
+  .city-list-item{
+    display: flex;
+    justify-self: center;
+    list-style-type: none;
+    color: white;
+  }

@@ -1,0 +1,46 @@
+.weather-forecast {
+  background-color: #1c1c27;
+  border-radius: 8px;
+  display: flex;
+  width: 370px;
+  height: 190px;
+  flex-direction: column;
+  margin-top: 10px;
+  padding: 10px;
+  align-items: center;
+} 
+.weather-days{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+.weather-day{
+  color: white;
+  display: flex;
+}
+.weather-icons{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+
+}
+.weather-icon-forecast{
+  position: relative  ;
+  display: flex;
+  width: 60px;
+}
+.weather-data-main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.forecast-temps{
+  width: 100%;
+  justify-content: space-around;
+  display: flex;
+  color: white;
+}
+.opacity{
+  opacity: 50%;
+}
