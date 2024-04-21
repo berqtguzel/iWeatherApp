@@ -23,7 +23,6 @@ Axios ise API isteklerini yönetmek için kullanılmıştır.
 
 # Projenin Özellikleri
 
-
 ## Responsive Tasarım:
 Uygulama, farklı ekran boyutlarına uyum sağlayacak şekilde tasarlanmıştır, böylece mobil cihazlarda 
 ve masaüstü tarayıcılarda rahatlıkla kullanılabilir.
@@ -42,3 +41,11 @@ Bu API, kullanıcının talep ettiği şehre göre hava durumu verilerini sağla
 ## Kullanılan Apiler
 OpenWeatherMap
 GeoNames
+
+## Teknolojiler ve Paketler
+- axios
+- react
+- react-loader-spinner
+- react-geolocated
+
+
