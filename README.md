@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+# Weather App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Bu proje, kullanıcıların kolay ve düzenli bir şekilde hava durumunu görüntülemeyi sağlayan bir web uygulamasıdır.
 
-## Available Scripts
 
-In the project directory, you can run:
+## Projeyi Nasıl Çalıştırabilirim ?
+  zip dosyası olarak indirip vs code'da açtıktan sonra  
+```bash
+ yarn instal       komutunu kullanarak gerekli dosyaları yükleyin
+ yarn start        komutunu kullanarak web uygulamasını çalıştırın
+```
 
-### `npm start`
+## Projenin Resimleri
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<img width="1680" alt="Ekran Resmi 2024-04-21 20 36 44" src="https://github.com/berqtguzel/weather-app/assets/95329609/5146bdcd-6303-4ed7-94c0-8e10fda00b43">
+<img width="1680" alt="Ekran Resmi 2024-04-21 20 36 27" src="https://github.com/berqtguzel/weather-app/assets/95329609/dca0c72b-9596-4575-b705-87d248d77e86">
+<img width="1680" alt="Ekran Resmi 2024-04-21 20 36 14" src="https://github.com/berqtguzel/weather-app/assets/95329609/45dc7c67-a73b-4bf3-a220-c692682ff1b1">
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Kullanılan Teknolojiler
+Proje, React ve Axios gibi teknolojileri kullanarak geliştirilmiştir. React'in avantajlarından yararlanarak kullanıcı dostu bir kullanıcı arayüzü oluşturulmuştur. 
+Axios ise API isteklerini yönetmek için kullanılmıştır.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Projenin Özellikleri
 
-### `npm run build`
+## Responsive Tasarım:
+Uygulama, farklı ekran boyutlarına uyum sağlayacak şekilde tasarlanmıştır, böylece mobil cihazlarda 
+ve masaüstü tarayıcılarda rahatlıkla kullanılabilir.
+## Auto-complete:
+Kullanıcılar şehir aramalarını hızlı bir şekilde yapabilmek için otomatik tamamlama özelliğinden faydalanabilirler. 
+Bu özellik, kullanıcı deneyimini artırır ve arama sürecini hızlandırır.
+## Konumuna Göre Veriler:
+Kullanıcılar, konum izni vererek bulundukları konumun hava durumu bilgilerini de görüntüleyebilirler. 
+Bu özellik, kullanıcıların hızlıca hava durumu bilgisine erişmelerini sağlar.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## API
+Proje, hava durumu verilerini çekmek için bir API'ye Axios kütüphanesini kullanarak isteklerde bulunur. 
+Bu API, kullanıcının talep ettiği şehre göre hava durumu verilerini sağlar.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Kullanılan Apiler
 
-### `npm run eject`
+## GeoNames
+Coğrafi konum verilerini barındıran ve sağlayan bir çevrimiçi coğrafi veritabanı ve web hizmetleridir. 
+Bu platform, dünya genelindeki yer adlarını, coğrafi konumları, idari bölümleri, 
+coğrafi özellikleri ve diğer coğrafi verileri içeren kapsamlı bir veritabanını sağlar.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## OpenWeatherMap
+Hava durumu verileri sağlayan bir çevrimiçi hava durumu hizmetidir. Bu platform, dünya genelindeki 
+mevcut hava koşulları, hava tahminleri, sıcaklık, nem, rüzgar hızı, basınç ve 
+diğer meteorolojik verileri API aracılığıyla kullanıcılara sunar.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Teknolojiler ve Paketler
+- axios
+- react
+- react-loader-spinner
+- react-geolocated
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
