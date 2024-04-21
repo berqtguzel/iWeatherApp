@@ -7,7 +7,6 @@ import Weather5DayForecast from "../Widgets/Weather5DayForecast/Weather5DayForec
 import WeatherSearchResults from "../WeatherSearchInput/WeatherSearchResults/WeatherSearchResults";
 import GeoLocation from "../GeoLocation/GeoLocation.jsx";
 import { RotatingLines } from "react-loader-spinner";
-
 import Logo from "../Logo/Logo";
 
 function WeatherInput() {
