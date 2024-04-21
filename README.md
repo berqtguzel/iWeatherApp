@@ -39,9 +39,11 @@ Proje, hava durumu verilerini çekmek için bir API'ye Axios kütüphanesini kul
 Bu API, kullanıcının talep ettiği şehre göre hava durumu verilerini sağlar.
 
 ## Kullanılan Apiler
-OpenWeatherMap
-GeoNames
+```bash
+GeoNames:Coğrafi konum verilerini barındıran ve sağlayan bir çevrimiçi coğrafi veritabanı ve web hizmetleridir. Bu platform, dünya genelindeki yer adlarını, coğrafi konumları, idari bölümleri, coğrafi özellikleri ve diğer coğrafi verileri içeren kapsamlı bir veritabanını sağlar.
 
+OpenWeatherMap:Hava durumu verileri sağlayan bir çevrimiçi hava durumu hizmetidir. Bu platform, dünya genelindeki mevcut hava koşulları, hava tahminleri, sıcaklık, nem, rüzgar hızı, basınç ve diğer meteorolojik verileri API aracılığıyla kullanıcılara sunar.
+```
 ## Teknolojiler ve Paketler
 - axios
 - react
