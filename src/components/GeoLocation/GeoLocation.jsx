@@ -1,5 +1,4 @@
 import React from "react";
-import { RotatingLines } from "react-loader-spinner";
 import "../GeoLocation/GeoLocation.css";
 
 const GeoLocation = ({ handleLocationClick, loading }) => {
@@ -8,19 +7,6 @@ const GeoLocation = ({ handleLocationClick, loading }) => {
       <button className="location-button" onClick={handleLocationClick}>
         Get Location
       </button>
-      {loading && (
-        <RotatingLines
-          visible={true}
-          height="35"
-          width="35"
-          strokeColor="#8FB2F5"
-          strokeWidth="5"
-          animationDuration="0.75"
-          ariaLabel="rotating-lines-loading"
-          wrapperStyle={{}}
-          wrapperClass="loading-spinner-wrapper"
-        />
-      )}
     </div>
   );
 };

@@ -14,3 +14,6 @@
   width: 100%;
   height: 50em;
 }
+.loading-spinner-wrapper{
+  background-color: red;
+}

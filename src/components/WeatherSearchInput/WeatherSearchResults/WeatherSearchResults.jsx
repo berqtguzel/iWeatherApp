@@ -5,7 +5,6 @@ import { RotatingLines } from "react-loader-spinner";
 const WeatherSearchResults = (props) => {
   const [cityName, setCityName] = useState("");
   const [cities, setCities] = useState([]);
-  const [loading, setLoading] = useState(false);
 
   const [selectedCity, setSelectedCity] = useState(null);
 
@@ -28,7 +27,7 @@ const WeatherSearchResults = (props) => {
 
   const handleCityClick = (cityName) => {
     setSelectedCity(cityName);
-    setLoading(true);
+    props.setLoader(true);
     props.onHandleCityClick(cityName);
   };
 
@@ -38,7 +37,7 @@ const WeatherSearchResults = (props) => {
   const handleInputEnter = (e) => {
     if (e.key === "Enter") {
       props.onHandleCityClick(cityName);
-      setLoading(true);
+      props.setLoader(true);
     }
   };
 
@@ -59,7 +58,9 @@ const WeatherSearchResults = (props) => {
           onChange={handleInputChange}
           onKeyPress={handleInputEnter}
         />
-        {loading && (
+      </div>
+      <div className="loading-spinner">
+        {props.loader && (
           <RotatingLines
             visible={true}
             height="35"
@@ -73,6 +74,7 @@ const WeatherSearchResults = (props) => {
           />
         )}
       </div>
+
       {cities.map((city) => (
         <div className="search-results">
           <ul className="city-list">

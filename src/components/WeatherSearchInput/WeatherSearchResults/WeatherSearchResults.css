@@ -14,7 +14,6 @@
 
   }
   .location-input {
-    margin-bottom: 15px;
     padding-left: 13px;
     width: 24em;
     height: 4em;
@@ -39,14 +38,15 @@
   .search-results{
     width: 335px;
     height: 40px;
-    border-radius: 5px;
+    border-radius: 3px;
     background-color:#1e1e29;
     margin-top: 5px;
-    padding: 5px;
+    padding: 0 5px 5px 5px;
     cursor: pointer;
   }
   .city-list{
-    padding: 0;
+    padding-left: 5px;
+    align-items: center;
   }
   .city-list-item{
     display: flex;
@@ -54,3 +54,8 @@
     list-style-type: none;
     color: white;
   }
+  .loading-spinner{
+  position: relative;
+  left: 9em;
+  bottom: 2.8em;
+  }   

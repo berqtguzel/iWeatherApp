@@ -6,19 +6,16 @@ import axios from "axios";
 import Weather5DayForecast from "../Widgets/Weather5DayForecast/Weather5DayForecast";
 import WeatherSearchResults from "../WeatherSearchInput/WeatherSearchResults/WeatherSearchResults";
 import GeoLocation from "../GeoLocation/GeoLocation.jsx";
-import { RotatingLines } from "react-loader-spinner";
 import Logo from "../Logo/Logo";
 
 function WeatherInput() {
   const [weatherData, setWeatherData] = useState(null);
-  const [loading, setLoading] = useState(false);
+  const [loader, setLoader] = useState(false);
 
   function handleLocationClick() {
     if (navigator.geolocation) {
-      setLoading(true);
-
       navigator.geolocation.getCurrentPosition(success, console.error);
-      setLoading(true);
+      setLoader(true);
     } else {
       console.log("Geolocation not supported");
     }
@@ -50,8 +47,6 @@ function WeatherInput() {
   };
 
   const handleCityClick = (cityName) => {
-    setLoading(true);
-
     searchLocation(cityName);
   };
 
@@ -69,25 +64,14 @@ function WeatherInput() {
           <WeatherSearchResults
             weatherData={weatherData}
             onHandleCityClick={handleCityClick}
+            loader={loader}
+            setLoader={setLoader}
           />
           <GeoLocation
             handleLocationClick={handleLocationClick}
             handleCityClick={handleCityClick}
             weatherData={weatherData}
           />
-          {loading && (
-            <RotatingLines
-              visible={true}
-              height="35"
-              width="35"
-              strokeColor="#8FB2F5"
-              strokeWidth="5"
-              animationDuration="0.75"
-              ariaLabel="rotating-lines-loading"
-              wrapperStyle={{}}
-              wrapperClass="loading-spinner-wrapper"
-            />
-          )}
         </div>
       )}
     </div>
