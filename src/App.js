@@ -1,16 +1,11 @@
 
-import WeatherInput from "./components/WeatherInput/WeatherInput";
+import WeatherApp from "./components/WeatherApp/WeatherApp";
 import "../src/App.css"
 function App() {
     return (
 
         <div className="app" >
-        
-            <div className="weather-input">
-            <WeatherInput />
-            
-            </div>
-            
+            <WeatherApp />
         </div>
     );
 }

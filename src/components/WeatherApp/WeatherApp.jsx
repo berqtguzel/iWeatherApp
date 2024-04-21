@@ -1,12 +1,12 @@
 import React, { useState } from "react";
-import "../WeatherInput/WeatherInput.css";
-import WeatherFeatures from "../Widgets/WeatherFeatures/WeatherFeatures";
-import WeatherMain from "../Widgets/WeatherMain/WeatherMain";
+import "./WeatherApp.css";
+import WeatherFeatures from "../Widgets/WeatherFeatures/WeatherFeatures.jsx";
+import WeatherMain from "../Widgets/WeatherMain/WeatherMain.jsx";
 import axios from "axios";
-import Weather5DayForecast from "../Widgets/Weather5DayForecast/Weather5DayForecast";
-import WeatherSearchResults from "../WeatherSearchInput/WeatherSearchResults/WeatherSearchResults";
+import Weather5DayForecast from "../Widgets/Weather5DayForecast/Weather5DayForecast.jsx";
+import WeatherSearchResults from "../WeatherSearchInput/WeatherSearchResults/WeatherSearchResults.jsx";
 import GeoLocation from "../GeoLocation/GeoLocation.jsx";
-import Logo from "../Logo/Logo";
+import Logo from "../Logo/Logo.jsx";
 
 function WeatherInput() {
   const [weatherData, setWeatherData] = useState(null);
