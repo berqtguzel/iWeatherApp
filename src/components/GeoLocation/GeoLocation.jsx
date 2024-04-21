@@ -1,5 +1,6 @@
 import React from "react";
 import { RotatingLines } from "react-loader-spinner";
+import "../GeoLocation/GeoLocation.css";
 
 const GeoLocation = ({ handleLocationClick, loading }) => {
   return (

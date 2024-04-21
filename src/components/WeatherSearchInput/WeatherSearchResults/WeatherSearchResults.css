@@ -41,10 +41,9 @@
     height: 40px;
     border-radius: 5px;
     background-color:#1e1e29;
-    margin-top: 13px;
+    margin-top: 5px;
     padding: 5px;
     cursor: pointer;
-
   }
   .city-list{
     padding: 0;
