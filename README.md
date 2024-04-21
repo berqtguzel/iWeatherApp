@@ -45,7 +45,7 @@ Coğrafi konum verilerini barındıran ve sağlayan bir çevrimiçi coğrafi ver
 Bu platform, dünya genelindeki yer adlarını, coğrafi konumları, idari bölümleri, 
 coğrafi özellikleri ve diğer coğrafi verileri içeren kapsamlı bir veritabanını sağlar.
 
-##OpenWeatherMap
+## OpenWeatherMap
 Hava durumu verileri sağlayan bir çevrimiçi hava durumu hizmetidir. Bu platform, dünya genelindeki 
 mevcut hava koşulları, hava tahminleri, sıcaklık, nem, rüzgar hızı, basınç ve 
 diğer meteorolojik verileri API aracılığıyla kullanıcılara sunar.
