@@ -6,7 +6,7 @@ Bu proje, kullanıcıların kolay ve düzenli bir şekilde hava durumunu görün
 ## Projeyi Nasıl Çalıştırabilirim ?
   zip dosyası olarak indirip vs code'da açtıktan sonra  
 ```bash
- yarn instal       komutunu kullanarak gerekli dosyaları yükleyin
+ yarn install       komutunu kullanarak gerekli dosyaları yükleyin
  yarn start        komutunu kullanarak web uygulamasını çalıştırın
 ```
 
